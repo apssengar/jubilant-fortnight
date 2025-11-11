@@ -88,8 +88,6 @@ DATABASES = {
             'port': 27017,
             'username': '',
             'password': '',
-            'authSource': '',
-            'authMechanism': '',
         },
     }
 }
