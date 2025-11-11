@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9b59b6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="55" fill="url(#grad1)" stroke="url(#grad2)" stroke-width="3"/>
+  
+  <!-- Octopus body -->
+  <ellipse cx="60" cy="45" rx="18" ry="15" fill="url(#grad2)"/>
+  
+  <!-- Octopus eyes -->
+  <circle cx="54" cy="40" r="3" fill="white"/>
+  <circle cx="66" cy="40" r="3" fill="white"/>
+  <circle cx="54" cy="40" r="1.5" fill="#2c3e50"/>
+  <circle cx="66" cy="40" r="1.5" fill="#2c3e50"/>
+  
+  <!-- Octopus tentacles -->
+  <path d="M45 55 Q40 65 45 75 Q50 70 45 60" fill="url(#grad2)" opacity="0.8"/>
+  <path d="M52 58 Q45 70 50 80 Q55 75 52 65" fill="url(#grad2)" opacity="0.8"/>
+  <path d="M68 58 Q75 70 70 80 Q65 75 68 65" fill="url(#grad2)" opacity="0.8"/>
+  <path d="M75 55 Q80 65 75 75 Q70 70 75 60" fill="url(#grad2)" opacity="0.8"/>
+  
+  <!-- Fitness weights -->
+  <rect x="35" y="25" width="4" height="15" fill="white" rx="2"/>
+  <rect x="32" y="27" width="10" height="3" fill="white" rx="1.5"/>
+  <rect x="32" y="35" width="10" height="3" fill="white" rx="1.5"/>
+  
+  <rect x="81" y="25" width="4" height="15" fill="white" rx="2"/>
+  <rect x="78" y="27" width="10" height="3" fill="white" rx="1.5"/>
+  <rect x="78" y="35" width="10" height="3" fill="white" rx="1.5"/>
+  
+  <!-- Text -->
+  <text x="60" y="95" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">OCTOFIT</text>
+  <text x="60" y="108" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">TRACKER</text>
+</svg>
